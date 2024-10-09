@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "streamlit-chatbot"
+version = "0.1.0"
+description = ""
+authors = ["Harsh Upadhyay <upadhyayharsh19@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+streamlit = "^1.38.0"
+pypdf2 = "^3.0.1"
+faiss-cpu = "^1.8.0.post1"
+langchain-community = "^0.3.0"
+wikipedia = "^1.4.0"
+qdrant-client = "^1.11.3"
+llama-index = "^0.11.13"
+llama-index-vector-stores-qdrant = "^0.3.0"
+llama-index-embeddings-clip = "^0.2.0"
+clip = {git = "https://github.com/openai/CLIP.git"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
